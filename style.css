@@ -1,0 +1,51 @@
+body {
+    background-color: lightgray;
+}
+.border-top {
+    border-top: 2px solid grey;
+}
+.border-bottom {
+    border-bottom: 2px solid grey;
+}
+.sub-header {
+    font-size: 16pt;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.label {
+    text-align: center;
+    font-size: 20pt;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-box {
+    height: 350px;
+    border: 1px solid grey;
+    background-color: white;
+    padding: 10px;
+}
+.sub-content-box {
+    height: 200px;
+    border: dashed lightgrey;
+    text-align: center;
+}
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+}
+.row-spacing {
+    padding: 5px;
+}
+.button {
+    padding: 10px;
+    margin: 5px;
+}
+.button1 {
+    background-color: red;
+}
+.button2 {
+    background-color: grey;
+}
