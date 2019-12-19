@@ -11,49 +11,68 @@
 <body>
     
     <div class="container">
-        <!-------------------------------------->
+
         <div class="row justify-content-center">
             <div class="col-lg-8 col-sm-12 label">Password Generator</div>
         </div>
-        <!-------------------------------------->
+
         <div class="row justify-content-center">
+
             <div class="col-lg-8 col-sm-12 content-box">
 
                 <div class="container">
-                    <!-------------------------------------->
+
                     <div class="row row-spacing">
 
                         <div class="col-12 border-bottom sub-header">Generate a Password</div>
 
                     </div>
-                    <!-------------------------------------->
+
+                    <div class="row row-spacing">
+
+                        <div class="col-12">
+
+                            <form>
+                                Password Length (8-128): <input type="text" id="passLength"><br>
+                                Password character type (special, numeric, lowercase, uppercase): <input type="text" id="passType"><br>
+                            </form>
+
+                        </div>
+
+                    </div>
+
                     <div class="row row-spacing">
 
                         <div class="col-12 sub-content-box">
 
-                            <p>Your Secure Password</p>
+                            <input type="text" id="password" class="pass1" value="Your Secure Password"></input>
 
                         </div>
 
                     </div>
-                    <!-------------------------------------->
+
                     <div class="row row-spacing">
 
-                        <div class="col-12 border-top">
+                        <div class="col-sm-3 border-top"></div>
 
-                            <button class="button button1">Generate Password</button>
+                        <div class="col-sm-8 border-top">
 
-                            <button class="button button2">Copy to Clipboard</button>
+                            <button class="button button1" id="gen">Generate Password</button>
+
+                            <button class="button button2" id="copy">Copy to Clipboard</button>
 
                         </div>
 
+                        <div class="col-sm-1 border-top"></div>
+
                     </div>
-                    <!-------------------------------------->
+
                 </div>
 
             </div>
+  
           </div>
-          <!-------------------------------------->
+
     </div>
 
     <script src="script.js"></script>
