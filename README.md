@@ -4,4 +4,3 @@ this website allows the user to randomly generate a password consisted of 4 diff
 
 Link to website: https://mitchelljoho.github.io/password-generator-hw3/
 
-Screenshot (2).png
